@@ -2,22 +2,25 @@
 class Fixnum
 
   def isprime?()
-    (2..self).each do |i|
+    if self==1
+      return false
+    end
+    (2..self-1).each do |i|
       if self%i==0
-                 return false
+        return false
       end
     end
     return true
   end
 
   def iscoprimewith?(m)
-    if self.isprime? && m.isprime?
-        return true
-      end
-    if self==1 || m==1
-      return true
+    if m == self
+      return false
     end
-      (2..self).each do |i|
+    if self==1 || m==1
+      return false
+    end
+      (2..self-1).each do |i|
         if self%i==0
           if m%i==0
             return false
