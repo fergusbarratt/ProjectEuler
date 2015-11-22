@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"loo",
+				"loo	loop { .. }"
+			],
+			[
 				"ti",
 				"title"
 			],
@@ -139,6 +143,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "533/carmichael.rb",
+			"settings":
+			{
+				"buffer_size": 1729,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "533/test_carmichael.rb",
+			"settings":
+			{
+				"buffer_size": 847,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -471,8 +491,16 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/fergusbarratt/Dropbox/ProjectEuler",
+		"/Users/fergusbarratt/Dropbox/ProjectEuler/533",
+		"/Users/fergusbarratt/Dropbox/ProjectEuler/RubyTesting"
+	],
 	"file_history":
 	[
+		"/Users/fergusbarratt/Dropbox/ProjectEuler/ProjectEuler.sublime-workspace",
+		"/Users/fergusbarratt/Dropbox/ProjectEuler/ProjectEuler.sublime-project",
 		"/Users/fergusbarratt/Dropbox/ProjectEuler/531/531.rb",
 		"/Users/fergusbarratt/.bash_profile",
 		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/views/static_pages/home.html.erb",
@@ -592,7 +620,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -606,6 +634,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"?",
+			"to_return",
 			"w",
 			"equation",
 			"));",
@@ -684,14 +714,77 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "533/carmichael.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1728,
+								1728
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "533/test_carmichael.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								836,
+								836
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 248.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -756,7 +849,7 @@
 	"project": "ProjectEuler.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
