@@ -1,0 +1,11 @@
+quicksort:: (Ord a) => [a] -> [a]
+quicksort [] = []
+quicksort [x] = [x]
+quicksort (x:xs) = 
+  let smallerSorted = quicksort [a | a <- xs, a<=x]
+      biggerSorted = quicksort [a | a <- xs, a>x]
+  in smallerSorted++[x]++biggerSorted
+
+main::IO()
+main = do
+  putStrLn $ foldr (++) "" $map show $quicksort [1, 2, 3, 2, 3, 1, 4, 6 , 2, 7, 3, 8]

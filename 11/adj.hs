@@ -33,18 +33,21 @@ adjTo (i, j) (k, l)
   | otherwise = False
 
 -- single element function
-element adjFun (i, j) mat = map (\(i, j)->getElem i j mat) $ filter (adjFun (i, j)) $ indexList mat
+element adjFun (i, j) mat = map (\(i, j)->getElem i j mat) $ index adjFun(i, j) mat
+index adjFun (i, j) mat = filter (adjFun (i, j)) $ indexList mat
 
 --multiple element function
-nelems adjFun (i, j) mat 
+elements adjFun (i, j) mat
+  | (element adjFun (i, j) mat) == [] = []
+elements adjFun (i, j) mat = (element adjFun (i, j) mat)++(elements adjFun (head $(index adjFun (i, j) mat)) mat)
 
---listsOfnElems:: Matrix->((Int, Int)->(Int, Int)->Bool)->Int->[[Int]]
-listsOfnElems 4 adjFun mat
-
---IO for reading from matrix file
-matFromFile::IO()
-matFromFile = 
+--nelems adj
+nelements n adjFun (i, j) mat
+  | (length $take n $elements adjFun (i, j) mat) < 4 = []
+  | otherwise  = take n $elements adjFun (i, j) mat
 
 main::IO()
-main = do 
-  putStrLn $ show maximum $ map sum $ listsOfnElems 4 adjTo $ matFromFile("mat.txt"))
+main =
+  putStrLn $foldr (++) "" $map show $ elements below (1, 1) $test 4 
+  -- putStrLn $ show (nelems 4 diagDownFrom (1, 1) test)
+  --putStrLn $ show maximum $ map sum $ listsOfnElems 4 adjTo $ matFromFile("mat.txt"))
