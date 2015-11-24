@@ -48,6 +48,6 @@ nelements n adjFun (i, j) mat
 
 main::IO()
 main =
-  putStrLn $foldr (++) "" $map show $ elements below (1, 1) $test 4 
+  putStrLn $foldr (++) "" $map show $ elements rightOf (1, 1) $test 8
   -- putStrLn $ show (nelems 4 diagDownFrom (1, 1) test)
   --putStrLn $ show maximum $ map sum $ listsOfnElems 4 adjTo $ matFromFile("mat.txt"))
