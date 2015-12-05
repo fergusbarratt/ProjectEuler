@@ -730,8 +730,8 @@
 						"selection":
 						[
 							[
-								1728,
-								1728
+								1339,
+								1339
 							]
 						],
 						"settings":
@@ -742,7 +742,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 907.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -894,7 +894,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 257.0,
 	"status_bar_visible": true,
 	"template_settings":
