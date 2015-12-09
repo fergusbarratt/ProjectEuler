@@ -22,8 +22,4 @@ allAmsUnder x = nub $ flatTups $ amPairsUnder x
 
 main::IO()
 main = do
-  print $ propDivs 6
-  print $ d 6
-  print $ amicable 5 6
-  print $ flatTups [(1, 5), (4, 6)]
-  print $ sum $ allAmsUnder 1000
+  print $ sum $ allAmsUnder 10000

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"sum",
+				"sumAbundants"
+			],
+			[
 				"loo",
 				"loo	loop { .. }"
 			],
@@ -144,25 +148,50 @@
 	"buffers":
 	[
 		{
-			"file": "533/carmichael.rb",
+			"file": "learnJavascript.js",
 			"settings":
 			{
-				"buffer_size": 1729,
+				"buffer_size": 5,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "533/test_carmichael.rb",
+			"contents": "{\n}\n",
 			"settings":
 			{
-				"buffer_size": 847,
-				"line_ending": "Unix"
+				"buffer_size": 4,
+				"line_ending": "Unix",
+				"name": "untitled.sublime-build"
 			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/Haskell/Haskell.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/Haskell/Haskell.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Chrome.sublime-build",
+					""
+				],
+				[
+					"Packages/User/jekyll.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Haskell/Haskell.sublime-build",
+				""
+			]
+		],
 		[
 			[
 				[
@@ -227,16 +256,16 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 254.0,
-		"last_filter": "install ",
+		"height": 315.0,
+		"last_filter": "install",
 		"selected_items":
 		[
 			[
-				"install ",
+				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"install",
+				"install ",
 				"Package Control: Install Package"
 			],
 			[
@@ -472,7 +501,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 550.0
+		"width": 305.0
 	},
 	"console":
 	{
@@ -494,15 +523,24 @@
 	"expanded_folders":
 	[
 		"/Users/fergusbarratt/Dropbox/ProjectEuler",
+		"/Users/fergusbarratt/Dropbox/ProjectEuler/20",
 		"/Users/fergusbarratt/Dropbox/ProjectEuler/533",
 		"/Users/fergusbarratt/Dropbox/ProjectEuler/RubyTesting"
 	],
 	"file_history":
 	[
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/javascript.sublime-build",
+		"/Users/fergusbarratt/Dropbox/ProjectEuler/learnJavascript.js",
+		"/Users/fergusbarratt/Dropbox/ProjectEuler/21/21.hs",
+		"/Users/fergusbarratt/Dropbox/ProjectEuler/22/22.hs",
+		"/Users/fergusbarratt/.bash_profile",
+		"/Users/fergusbarratt/Dropbox/ProjectEuler/21/21",
+		"/Users/fergusbarratt/Dropbox/ProjectEuler/533/test_carmichael.rb",
+		"/Users/fergusbarratt/Dropbox/ProjectEuler/533/carmichael.rb",
+		"/Users/fergusbarratt/Dropbox/ProjectEuler/20/20.hs",
 		"/Users/fergusbarratt/Dropbox/ProjectEuler/ProjectEuler.sublime-workspace",
 		"/Users/fergusbarratt/Dropbox/ProjectEuler/ProjectEuler.sublime-project",
 		"/Users/fergusbarratt/Dropbox/ProjectEuler/531/531.rb",
-		"/Users/fergusbarratt/.bash_profile",
 		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/views/static_pages/home.html.erb",
 		"/Applications/MAMP/htdocs/index.html",
 		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/Gemfile",
@@ -620,7 +658,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 42.0
 	},
 	"find_in_files":
 	{
@@ -634,6 +672,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"sumA",
+			"abundants",
+			"perfect",
+			"allTups",
+			"ms",
 			"?",
 			"to_return",
 			"w",
@@ -714,69 +757,65 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "533/carmichael.rb",
+					"file": "learnJavascript.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1729,
+						"buffer_size": 5,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1339,
-								1339
+								5,
+								5
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 907.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "533/test_carmichael.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 847,
+						"buffer_size": 4,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								836,
-								836
+								2,
+								2
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"auto_complete": true,
+							"default_dir": "/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 248.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -815,7 +854,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 121.0
+		"height": 69.0
 	},
 	"output.find_results":
 	{
@@ -841,11 +880,15 @@
 	{
 		"height": 98.0
 	},
+	"output.haskell_error_checker":
+	{
+		"height": 51.0
+	},
 	"output.markdown":
 	{
 		"height": 144.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Packages/Java/Ant.sublime-build",
 	"project": "ProjectEuler.sublime-project",
 	"replace":
 	{
@@ -860,7 +903,7 @@
 		[
 			[
 				"",
-				"Matlab/GuidePlot.fig"
+				"learnJavascript.js"
 			]
 		],
 		"width": 0.0
@@ -895,7 +938,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 257.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
