@@ -4,16 +4,204 @@
 		"selected_items":
 		[
 			[
-				"sum",
-				"sumAbundants"
+				"omeg",
+				"omega_cavity_range〔variable〕"
 			],
 			[
-				"loo",
-				"loo	loop { .. }"
+				"ome",
+				"omega_cavity_range〔variable〕"
 			],
 			[
-				"ti",
-				"title"
+				"omega_qubit",
+				"omega_qubit_range"
+			],
+			[
+				"omega",
+				"omega_qubit_range〔variable〕"
+			],
+			[
+				"omega_cavity",
+				"omega_cavity_range"
+			],
+			[
+				"omega_cavi",
+				"omega_cavity_range〔argument〕"
+			],
+			[
+				"ones",
+				"ones_like"
+			],
+			[
+				"S",
+				"SteadyStateDickeModel"
+			],
+			[
+				"type",
+				"type〔class〕"
+			],
+			[
+				"sx",
+				"sx_bare〔variable〕"
+			],
+			[
+				"initi",
+				"initial_state"
+			],
+			[
+				"time",
+				"time_dependent_carmichael_sys〔variable〕"
+			],
+			[
+				"time_depende",
+				"time_dependent_carmichael_sys_params"
+			],
+			[
+				"sho",
+				"show_time_dependence"
+			],
+			[
+				"id",
+				"idcavity〔variable〕"
+			],
+			[
+				"ida",
+				"idqubit〔variable〕"
+			],
+			[
+				"H",
+				"Hamiltonian	(BlochAnimationJC.py)"
+			],
+			[
+				"Steady",
+				"SteadyStateJaynesCummingsModel"
+			],
+			[
+				"lin",
+				"linspace"
+			],
+			[
+				"draw",
+				"draw_figs〔function〕"
+			],
+			[
+				"init",
+				"init_func"
+			],
+			[
+				"PL",
+				"PLU_decomposition〔function〕"
+			],
+			[
+				"old_",
+				"old_B"
+			],
+			[
+				"test_row_s",
+				"test_row_switch〔function〕"
+			],
+			[
+				"test",
+				"test_partial_pivot"
+			],
+			[
+				"D",
+				"ZeroDivisionError〔class〕"
+			],
+			[
+				"partial_",
+				"partial_pivot〔function〕"
+			],
+			[
+				"tes",
+				"test_A〔variable〕"
+			],
+			[
+				"LU_",
+				"LU_decomposition〔function〕"
+			],
+			[
+				"repara",
+				"reparametrised"
+			],
+			[
+				"Quantu",
+				"QuantumOpticsModel"
+			],
+			[
+				"c_ops",
+				"c_op_params"
+			],
+			[
+				"__",
+				"__init__〔function〕"
+			],
+			[
+				"omega_",
+				"omega_drive_range〔variable〕"
+			],
+			[
+				"hamilto",
+				"hamiltonian"
+			],
+			[
+				"import",
+				"important_range"
+			],
+			[
+				"inte",
+				"important_range〔variable〕"
+			],
+			[
+				"ini",
+				"init_func"
+			],
+			[
+				"Sys_",
+				"Sys_Params(5"
+			],
+			[
+				"carmichael",
+				"carmichael_sys〔variable〕"
+			],
+			[
+				"omega_ca",
+				"omega_cavity_range"
+			],
+			[
+				"q",
+				"q_d_det〔variable〕"
+			],
+			[
+				"c_op",
+				"c_op_params"
+			],
+			[
+				"drive",
+				"drive_range"
+			],
+			[
+				"iphn",
+				"intracavity_photon_numbers"
+			],
+			[
+				"intrac",
+				"intracavity_photon_numbers"
+			],
+			[
+				"projected",
+				"projectedtime"
+			],
+			[
+				"step",
+				"step_size"
+			],
+			[
+				"expecter",
+				"expectertype"
+			],
+			[
+				"C1",
+				"C1dC1"
 			],
 			[
 				"p",
@@ -48,10 +236,6 @@
 				"PlotVals"
 			],
 			[
-				"omeg",
-				"omega_driving"
-			],
-			[
 				"H1",
 				"H1_coeff"
 			],
@@ -66,14 +250,6 @@
 			[
 				"kcollaps",
 				"kcollapse〔function〕"
-			],
-			[
-				"omega",
-				"omega_cavity"
-			],
-			[
-				"omega_",
-				"omega_qubit"
 			],
 			[
 				"vec",
@@ -136,10 +312,6 @@
 				"g"
 			],
 			[
-				"D",
-				"Dplotvals"
-			],
-			[
 				"number",
 				"numberofvalues"
 			]
@@ -148,31 +320,30 @@
 	"buffers":
 	[
 		{
-			"file": "learnJavascript.js",
+			"contents": " ",
 			"settings":
 			{
-				"buffer_size": 5,
+				"buffer_size": 1,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "{\n}\n",
-			"settings":
-			{
-				"buffer_size": 4,
-				"line_ending": "Unix",
-				"name": "untitled.sublime-build"
 			}
 		}
 	],
-	"build_system": "Packages/Haskell/Haskell.sublime-build",
+	"build_system": "",
 	"build_system_choices":
 	[
 		[
 			[
 				[
-					"Packages/Haskell/Haskell.sublime-build",
+					"Anaconda Python Builder",
 					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
 				],
 				[
 					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
@@ -188,7 +359,7 @@
 				]
 			],
 			[
-				"Packages/Haskell/Haskell.sublime-build",
+				"Anaconda Python Builder",
 				""
 			]
 		],
@@ -205,6 +376,46 @@
 			],
 			[
 				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Chrome.sublime-build",
+					""
+				],
+				[
+					"Packages/User/jekyll.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
 				""
 			]
 		],
@@ -231,10 +442,6 @@
 		[
 			[
 				[
-					"Packages/Ruby/Ruby.sublime-build",
-					""
-				],
-				[
 					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
 					""
 				],
@@ -248,7 +455,7 @@
 				]
 			],
 			[
-				"Packages/Ruby/Ruby.sublime-build",
+				"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
 				""
 			]
 		]
@@ -256,17 +463,45 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 315.0,
+		"height": 354.0,
 		"last_filter": "install",
 		"selected_items":
 		[
 			[
 				"install",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"instal",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"install the",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"insa",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"toggle linter",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"insta",
 				"Package Control: Install Package"
 			],
 			[
-				"install ",
-				"Package Control: Install Package"
+				"instll",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"linter nex",
+				"SublimeLinter: Next Error"
 			],
 			[
 				"enable ",
@@ -285,16 +520,16 @@
 				"SublimeLinter: Enable Linter"
 			],
 			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
 				"git push",
 				"Git: Push"
 			],
 			[
 				"Snippet: ",
 				"Snippet: Page"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"pus",
@@ -501,7 +736,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 305.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -522,66 +757,77 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/fergusbarratt/Dropbox/ProjectEuler",
-		"/Users/fergusbarratt/Dropbox/ProjectEuler/20",
-		"/Users/fergusbarratt/Dropbox/ProjectEuler/533",
-		"/Users/fergusbarratt/Dropbox/ProjectEuler/RubyTesting"
+		"/Users/fergusbarratt/Dropbox/Projects/ProjectEuler"
 	],
 	"file_history":
 	[
-		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/javascript.sublime-build",
-		"/Users/fergusbarratt/Dropbox/ProjectEuler/learnJavascript.js",
-		"/Users/fergusbarratt/Dropbox/ProjectEuler/21/21.hs",
-		"/Users/fergusbarratt/Dropbox/ProjectEuler/22/22.hs",
-		"/Users/fergusbarratt/.bash_profile",
-		"/Users/fergusbarratt/Dropbox/ProjectEuler/21/21",
-		"/Users/fergusbarratt/Dropbox/ProjectEuler/533/test_carmichael.rb",
-		"/Users/fergusbarratt/Dropbox/ProjectEuler/533/carmichael.rb",
-		"/Users/fergusbarratt/Dropbox/ProjectEuler/20/20.hs",
-		"/Users/fergusbarratt/Dropbox/ProjectEuler/ProjectEuler.sublime-workspace",
-		"/Users/fergusbarratt/Dropbox/ProjectEuler/ProjectEuler.sublime-project",
-		"/Users/fergusbarratt/Dropbox/ProjectEuler/531/531.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/views/static_pages/home.html.erb",
-		"/Applications/MAMP/htdocs/index.html",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/Gemfile",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/views/layouts/application.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/test/controllers/static_pages_controller_test.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/helpers/application_helper.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/notes.md",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/.git/COMMIT_EDITMSG",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/helpers/static_pages_helper.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/views/static_pages/about.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/views/static_pages/help.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/hello_app/app/controllers/application_controller.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/toy_app/Gemfile",
-		"/Users/fergusbarratt/Dropbox/RubyProject/hello_app/config/routes.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/testfile.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/hello_app/Gemfile",
 		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/BlochAnimationJC.py",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/README.md",
-		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/BlochAnimation.py",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/JaynesCummings/SolveJCSystem.py",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/JaynesCummings/temp1/bloch_0.png",
+		"/Users/fergusbarratt/.pyenv/versions/3.5.0/lib/python3.5/site-packages/qutip/bloch.py",
+		"/Users/fergusbarratt/.pyenv/versions/3.5.0/lib/python3.5/site-packages/matplotlib/transforms.py",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/BlochAnimation/BlochAnimationJC.py",
 		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
 		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/PlotQPSeries.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/JaynesCummingModel.tex",
+		"/opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/qutip/bloch_redfield.py",
+		"/Users/fergusbarratt/Dropbox/QuantEcon/white_noise.py",
+		"/Users/fergusbarratt/.matplotlib/matplotlibrc",
+		"/Users/fergusbarratt/Dropbox/NumericalAnalysis/sse/sse.cpp",
+		"/Users/fergusbarratt/Dropbox/NumericalAnalysis/README.md",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/NumericalAnalysis/LU Decomposition.py",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/.gitignore",
+		"/Users/fergusbarratt/Downloads/Academic CV/cv.tex",
+		"/Users/fergusbarratt/.bash_profile",
+		"/var/folders/4w/ly9_0b7n4wd527l9sz9914tw0000gn/T/bash-fc-1449110579",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/JaynesCummings/qp_anim.gif",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/CarmichaelPaperSummary.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/Readme.md",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/LiteratureReview.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/TheMasterEquation.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/Functions and Scripts/probss.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/SolveJCSystem.py",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/Functions and Scripts/rhoss.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/Functions and Scripts/PlotQPSeries.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/Functions and Scripts/iphnumvals.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/Functions and Scripts/iphnum_vs_purity.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/test qutip.py",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/Functions and Scripts/Subplot2Figures.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/Functions and Scripts/timedependentsoln.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/Functions and Scripts/volintegral.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/BlochAnimationJC.py",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/Functions and Scripts/GeneratePlotValues.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/Functions and Scripts/prettyplot.m",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/bloch_sphere.mp4",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/fergusbarratt/.bash_",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/integration/users_edit_test.rb",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/LiteratureReview.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/iphnumvals.m",
+		"/Users/fergusbarratt/Documents/qotoolbox/doc/qousersguide.pdf",
+		"/opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/qutip/superop_reps.py",
+		"/Users/fergusbarratt/Documents/qotoolbox/doc/terminal.glue",
+		"/opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/qutip/qobj.py",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/QuasiProbabilityDistributions.tex",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/LaTeX.sublime-settings",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/TheMasterEquation.tex",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/PlotQPSeries.m",
+		"/Users/fergusbarratt/Documents/qotoolbox/@qo/qfunc.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/QFunctionsPlot.fig",
+		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/test/test_helper.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/test/controllers/static_pages_controller_test.rb",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/README.md",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/BlochAnimation.py",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/Readme.md",
 		"/opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/qutip/bloch.py",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/rhoss.m",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/iphnumvals.m",
 		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/README.markdown",
 		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/config/Python/Main.sublime-menu",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/JaynesCummings.py",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/test qutip.py",
 		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/Main.sublime-menu",
 		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/SublimeREPL (OSX).sublime-settings",
 		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
 		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/Python/Python.sublime-build",
-		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/CriticalSlowingComparison.m",
 		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/timedependentsoln.m",
@@ -617,8 +863,6 @@
 		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/ProjectOutline.tex",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Mathematica/QuasiProbabilityFunctions.m",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Mathematica/Quasi Probability Functions.nb",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/JaynesCummingModel.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/QuasiProbabilityDistributions.tex",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/QuasiProbabilityDistributions.aux",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/SlowingFigure.fig",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/plotQseries.m",
@@ -644,27 +888,18 @@
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/plotseries.m",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/Qss.m",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Mathematica/Quasi Probability Functions.nb",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/QuasiProbabilityDistributions.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Summary.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/TheMasterEquation.tex",
-		"/Applications/MATLAB_R2015a.app/bin/matlab",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/CarmichaelPaperSummary.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TheMasterEquation.aux",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Summary.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TheMasterEquation.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Bibliography.bib",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Summary.aux",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Summary.sublime-project"
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/QuasiProbabilityDistributions.tex"
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 158.0,
 		"where_history":
 		[
+			"<project>"
 		]
 	},
 	"find_state":
@@ -672,74 +907,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"sumA",
-			"abundants",
-			"perfect",
-			"allTups",
-			"ms",
-			"?",
-			"to_return",
+			"len(",
+			"print",
+			"omega_qubit_range",
+			"./",
+			"-",
+			"^",
+			"*",
+			"/",
+			".^",
+			"^",
+			"0",
+			"dims",
+			"s",
+			"linspace",
+			"0",
+			"sys",
+			"SYS",
+			"sys",
+			"SYS",
+			"sys",
+			"shape",
+			"2",
+			"_steadystate_direct_sparse",
+			"_steady_state_direct_sparse",
+			"direct_sparse",
+			"steady",
+			"ArithmeticError",
+			"hamiltonian",
+			"noisy",
+			"print",
+			"drive",
+			"seismic",
+			"coolwarm",
+			"[i]",
+			"plot_surface",
+			"seismic_r",
+			"ax",
+			"cont",
+			"2",
+			"P2",
+			"l",
+			"L",
+			"l",
+			"L",
+			"P",
+			"    ",
+			"   ",
+			"    ",
+			"   ",
+			"1.5",
+			"sum",
+			"zeros",
+			"row",
+			"id_first_col",
+			"A",
+			"][",
+			"new_A",
+			"a",
+			"A",
+			"a",
+			"A",
+			"0",
+			"1",
+			"0",
+			"A",
+			"row",
+			"A",
+			"sum",
+			"zeros",
+			"ones",
+			"matrix",
+			"test_A",
+			"row_ind",
+			"col_ind",
+			"itemize",
+			"(QMUL)",
+			"(UCL)",
+			"(University of Copenhagen)",
+			"KU",
+			"SystemParameters",
+			"drive_index, ",
+			"drive_index",
+			"omega_drive_range",
+			"collective_sm",
+			"collective_sz",
+			"cavity_range",
+			"drive_range",
+			"SteadyStateJaynesCummingsSystem",
+			"JC_System",
+			"Steady_State_JC_System",
+			"Sys_Params",
+			"JC_System",
+			"System",
+			"system",
+			"System",
+			"animate",
+			"rho_ss",
+			"Sys_Build",
+			"n",
+			"params",
+			"JC_Solutions",
+			"wl",
+			"cavity",
+			"coloured",
+			"System",
+			".qp(vec, vec)",
+			"W",
+			"drive_range",
+			"xvec",
+			"wig",
+			"W_fock",
+			"W_thermal",
+			"W_coherent",
+			"yrange",
+			"xrange",
+			"qfunc",
+			"data",
+			"spre",
+			"_",
+			"[H]",
+			"\\cref",
 			"w",
 			"equation",
 			"));",
 			"rhoss",
 			"sx",
 			"    //",
-			"Yrange",
-			"ge",
-			", Xrange, Yrange",
-			"qfunc(rhoss(E, det, N, g, kappa)",
-			"sigmam",
-			"sx",
-			"sz",
-			"3",
-			"bar",
-			"scroll",
-			"live",
-			"]",
-			"[H]",
-			"equation",
-			"ref",
-			"equation",
-			"quation",
-			"\\qexp{\\sigma_z}",
-			"\\qexp{\\atann}",
-			"\\qexp{\\ann}",
-			"qexp{\\ann}",
-			"concrit",
-			"det",
-			"d",
-			"t",
-			"N, g, kappa",
-			"n",
-			"N",
-			"detuning",
-			"drive",
-			"kappa, g, det, N",
-			"e",
-			"E",
-			"e",
-			"E",
-			"e",
-			"E",
-			"e",
-			"E",
-			"e",
-			"E",
-			"e",
-			"E",
-			"e",
-			"E",
-			"Eplotiphnumvals",
-			"vals",
-			"X",
-			"Xrange, Yrange)",
-			"Qss",
-			"jpg",
-			"via",
-			"h",
-			"path",
-			"("
+			"Yrange"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -747,6 +1042,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			" \\}",
+			"\"><%="
 		],
 		"reverse": false,
 		"show_context": true,
@@ -757,59 +1054,29 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "learnJavascript.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5,
+						"buffer_size": 1,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5,
-								5
+								1,
+								1
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2,
-								2
-							]
-						],
-						"settings":
-						{
-							"auto_complete": true,
-							"default_dir": "/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User",
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -823,11 +1090,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 31.0
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 68.0
 	},
 	"layout":
 	{
@@ -854,7 +1121,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 69.0
+		"height": 390.0
 	},
 	"output.find_results":
 	{
@@ -880,19 +1147,19 @@
 	{
 		"height": 98.0
 	},
-	"output.haskell_error_checker":
+	"output.haskell_sublime_load":
 	{
-		"height": 51.0
+		"height": 162.0
 	},
 	"output.markdown":
 	{
 		"height": 144.0
 	},
-	"pinned_build_system": "Packages/Java/Ant.sublime-build",
+	"pinned_build_system": "Anaconda Python Builder",
 	"project": "ProjectEuler.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -903,7 +1170,15 @@
 		[
 			[
 				"",
-				"learnJavascript.js"
+				"Masters project/Python/JaynesCummings/SolveJCSystem.py"
+			],
+			[
+				"spre",
+				"qutip/superop_reps.py"
+			],
+			[
+				"qfunc",
+				"Masters project/Matlab/QFunctionsPlot.fig"
 			]
 		],
 		"width": 0.0
@@ -916,7 +1191,15 @@
 		[
 			[
 				"",
-				"/Applications/MAMP/htdocs/_sublime/WebsiteProject.sublime-project"
+				"~/Dropbox/Projects/ProjectEuler/ProjectEuler.sublime-project"
+			],
+			[
+				"projecteuler",
+				"~/Dropbox/ProjectEuler/ProjectEuler.sublime-workspace"
+			],
+			[
+				"pro",
+				"~/Dropbox/ProjectEuler/ProjectEuler.sublime-workspace"
 			]
 		],
 		"width": 380.0
@@ -934,12 +1217,12 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
-	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 50.0,
-	"status_bar_visible": true,
+	"show_tabs": false,
+	"side_bar_visible": false,
+	"side_bar_width": 230.0,
+	"status_bar_visible": false,
 	"template_settings":
 	{
 	}
